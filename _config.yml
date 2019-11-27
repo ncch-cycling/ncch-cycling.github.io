@@ -16,7 +16,7 @@ keep_files:
 # Site settings
 title: Airspace
 subtitle: "A free HTML5 agency template"
-url: "http://ncch-cycling.github.io" # the base hostname & protocol for your site
+url: "https://ncch-cycling.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/ncch-cycling"
 cover: "/assets/cover.png"
