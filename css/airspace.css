@@ -66,26 +66,28 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
+
 }
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  margin-bottom:20px;
 }
+
 header .navbar-default {
   background: none;
   border: 0px;
 }
 header .navbar-default .navbar-nav {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
-  padding: 10px 26px;
+  padding: 10px 16px;
   font-size: 15px;
+  font-weight: bold
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
@@ -101,7 +103,8 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding-top: 150px;
+  padding-bottom: 257px;
   position: relative;
 }
 #slider:before {
@@ -114,26 +117,35 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #8b86a3, #322e40);
-  opacity: 0.8;
+  opacity: 0.3;
 }
 #slider .block {
   color: #E3E3E4;
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 45px;
+  font-weight: 1000;
+  font-size: 55px;
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
 #slider .block p {
-  font-size: 23px;
+  font-size: 30px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 3px;
 }
+
+.fade-in {
+  -webkit-transition: background 1.5s linear;
+  -moz-transition: background 1.5s linear;
+  -o-transition: background 1.5s linear;
+  -ms-transition: background 1.5s linear;
+  transition: background 1.5s linear;
+}
+
 /*--
 	wrapper Start
 --*/
@@ -141,7 +153,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 100px 0;
 }
 #intro .block h2 {
-  padding-top: 35px;
+  padding-top: 5px;
   line-height: 27px;
   margin: 0;
 }
@@ -231,7 +243,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/rotating/IMG_3181.JPG");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -364,6 +376,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 107px;
   position: relative;
   background-attachment: fixed;
+  background-position: 10% 0%;
 }
 #global-header:before {
   content: "";
